@@ -16,10 +16,4 @@ public class Calculator {
         System.out.println("This is test2.");
     }
 
-    @Test
-    public void loginWithValidCredentials(){
-        WebDriver driver = new ChromeDriver();
-        driver.get("sauce demo url");
-    }
-
 }

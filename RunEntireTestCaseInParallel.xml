@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="This is for entire test suite" parallel="methods" thread-count="2">
+    <test name="Running in Parallel">
+        <!-- Specifying which group we want to run -->
+        <groups>
+            <run>
+                <include name="smokeTest"/>
+            </run>
+        </groups>
+        <!-- Specifying which test cases we want to run -->
+        <packages>
+            <package name="Testcases"></package>
+        </packages>
+    </test>
+</suite>

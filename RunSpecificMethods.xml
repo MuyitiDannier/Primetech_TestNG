@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="This is my first suit">
+    <test name="Test one">
+        <classes>
+            <!--            add a comment-->
+            <class name="Testcases.Calculator">
+                <methods>
+                    <!-- only execute the below method from Calculator Class -->
+                    <include name="calculatorTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

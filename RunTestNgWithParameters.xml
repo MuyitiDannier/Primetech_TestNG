@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="This is for entire test suite">
+    <test name="Running with Parameters">
+        <parameter name="fName" value="John"></parameter>
+        <parameter name="lName" value="Harry"></parameter>
+        
+        <classes>
+            <class name="Testcases.TestNgParameterExample"></class>
+        </classes>
+    </test>
+</suite>
